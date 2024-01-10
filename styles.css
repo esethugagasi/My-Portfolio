@@ -87,14 +87,14 @@ body{
 
 .text-div {
     flex: 1;
-    padding: 10rem 5rem 0rem 5rem;
+    padding: 10rem 5rem rem 5rem;
     /* margin: 10rem 0rem 0rem 0rem; */
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 }
 
 .image-div {
     flex: 1;
-    background-color: #e0e0e0;
+    /* background-color: #e0e0e0; */
     text-align: center;
     padding: 6rem 0rem 6rem 0rem;
 }
