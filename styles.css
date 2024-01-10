@@ -82,12 +82,12 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     /* padding: 10rem; */
-    background: #000000;
+    background: #F4DFC8;
 }
 
 .text-div {
     flex: 1;
-    padding: 10rem 5rem rem 5rem;
+    padding: 10rem 5rem 5rem 5rem;
     /* margin: 10rem 0rem 0rem 0rem; */
     /* background-color: #f4f4f4; */
 }
