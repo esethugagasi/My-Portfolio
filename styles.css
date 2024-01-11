@@ -90,13 +90,27 @@ body{
     padding: 10rem 5rem 0rem 5rem;
     /* margin: 10rem 0rem 0rem 0rem; */
     /* background-color: #f4f4f4; */
+    font-size: 1.5rem;
 }
+.expand-button {
+    padding: 1rem;
+    background-color: #F4DFC8;
+    color: #000000;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.expand-button:hover {
+    background-color: #F4EAE0;
+}
+
 
 .image-div {
     flex: 1;
     /* background-color: #e0e0e0; */
     text-align: center;
-    padding: 6rem 0rem 6rem 0rem;
+    padding: 3rem 0rem 6rem 0rem;
 }
 
 .image-div img {
@@ -104,6 +118,7 @@ body{
     height: auto;
    
 }
+
 
 
 
@@ -166,5 +181,14 @@ body{
     .container {
         flex-direction: column;
     }
+    .expand-button {
+        padding: 1rem 12rem 1rem 10rem;
+    }
 
 } 
+
+@media(max-width: 500px){
+    .expand-button {
+        padding: 1rem 5rem 1rem 5rem;
+    }
+}
