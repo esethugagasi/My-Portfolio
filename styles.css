@@ -81,7 +81,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* background: #F4DFC8; */
+    background-color: #F4EAE0;
+    padding: 0rem 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
 
 }
 
@@ -93,12 +96,13 @@ body{
     font-size: 1.5rem;
 }
 .expand-button {
-    padding: 1rem;
+    padding: 1rem 3.5rem;
     background-color: #F4DFC8;
     color: #000000;
     border-radius: 5rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    /* border: #000000; */
 }
 
 .expand-button:hover {
@@ -118,8 +122,17 @@ body{
     height: auto;
    
 }
-
-
+.about-container h2{
+    text-align: center;
+    padding: 0rem 0rem 4rem 0rem;
+}
+.about-container{
+    padding: 0rem 2rem;
+    max-width: 80rem;
+    min-height: 20rem;
+    margin: 0 auto;
+    background-color: #F4EAE0;
+}
 
 
 
@@ -182,13 +195,20 @@ body{
         flex-direction: column;
     }
     .expand-button {
-        padding: 1rem 12rem 1rem 10rem;
+        padding: 1rem 12rem 1rem 12rem;
     }
 
 } 
 
-@media(max-width: 500px){
+@media(max-width: 530px){
     .expand-button {
-        padding: 1rem 5rem 1rem 5rem;
+        padding: 1rem 4rem 1rem 4rem;
     }
+
+    .text-div {
+        
+        font-size: 0.74rem;
+    }
+
 }
+
