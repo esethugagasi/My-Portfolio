@@ -90,10 +90,10 @@ body{
 
 .text-div {
     flex: 1;
-    padding: 10rem 5rem 0rem 5rem;
+    padding: 15rem 5rem 0rem 5rem;
     /* margin: 10rem 0rem 0rem 0rem; */
     /* background-color: #f4f4f4; */
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .expand-button {
     padding: 1rem 3.5rem;
@@ -134,7 +134,91 @@ body{
     background-color: #F4EAE0;
 }
 
+/* Skills */
+.skills-container {
+    padding: 0rem 2rem;
+    max-width: 80rem;
+    min-height: 20rem;
+    margin: 0 auto;
+    background-color: #F4EAE0;
+    border-radius: 8px;  
+    
+}
+.skills-container h2{
+    text-align: center;
+    padding: 0rem 0rem 4rem 0rem;
+}
 
+.skills-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.skills{
+
+    width:20%;
+    /* background: white; */
+    border: 1px solid #000;
+    margin-bottom: 50px;
+    transition: 0.3s;   
+    text-align: center;
+}
+
+
+/* Projects */
+.project-container{
+    padding: 0rem 2rem;
+    max-width: 80rem;
+    min-height: 20rem;
+    margin: 0 auto;
+    background-color: #F4EAE0;
+    border-radius: 8px;  
+}
+
+.project-container h2 {
+    text-align: center;
+    padding: 0rem 0rem 4rem 0rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card{
+    width:20%;
+    background: white;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+.card-header{
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right, #F4EAE0, #F4DFC8);
+    color: #000000;
+}
+.card-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn{
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #000000, #F4DFC8);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
 
 /* Breakpoint */
 
@@ -198,6 +282,19 @@ body{
         padding: 1rem 12rem 1rem 12rem;
     }
 
+    
+    .project-container{
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+        
+    }
+
+    .skills{
+        width: 80%;
+    }
+
 } 
 
 @media(max-width: 530px){
@@ -211,4 +308,3 @@ body{
     }
 
 }
-
